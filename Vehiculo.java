@@ -1,15 +1,12 @@
-package proyecto1;
+Package proyecto1;
 
 public class Vehiculo 
 {
-	public int tamano = 10;
-	public int posAnadir = 0;
 	private int modelo;
 	private String marca;
 	private double valorComercial;
 	private String color;
 	private int cantidad = 0;
-	Vehiculo[] vehiculos = new Vehiculo[10];
 	
 	//constructores
 	public Vehiculo()
